@@ -1,0 +1,3 @@
+frivinp_rtm = /glade/work/jiangzhu/data/inputdata/petm/rdirc.1x1.PETM_new.nc
+nrevsn_rtm = b.e12.B1850C5CN.f19_g16.iPETM06x.07.rtm.r.2001-01-01-00000.nc
+finidat_rtm = /glade/p/cesmdata/cseg/inputdata/rof/rtm/initdata/rtmi.I1850CRUCLM45BGC.0241-01-01.R05_simyr1850_c130515.nc

@@ -1,0 +1,16 @@
+create_newcase -case /glade/u/home/jiangzhu/cesm/cases/b.e12.B1850C5CN.f19_g16.iPETM06x.09 -res f19_g16 -mach cheyenne -compset B1850C5CN
+case created 2023-09-30 15:04:18
+build complete 2023-09-30 15:16:30
+run submitted 2023-09-30 15:16:35
+run started 2023-09-30 15:17:47
+run SUCCESSFUL 2023-09-30 23:53:19
+run started 2023-10-01 01:23:12
+run SUCCESSFUL 2023-10-01 09:43:54
+run submitted 2023-10-02 08:31:07
+run started 2023-10-02 08:31:15
+run SUCCESSFUL 2023-10-02 16:41:49
+run started 2023-10-02 16:42:52
+run SUCCESSFUL 2023-10-03 00:51:00
+run started 2023-10-03 00:51:48
+run SUCCESSFUL 2023-10-03 09:01:22
+run started 2023-10-03 09:26:44

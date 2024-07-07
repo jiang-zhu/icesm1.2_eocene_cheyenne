@@ -1,0 +1,3 @@
+! namelists for PETM
+fsurdat     = '/glade/work/jiangzhu/data/inputdata/petm/surfdata_1.9x2.5_PETM_new_c171025.nc'
+urban_hac   = 'OFF'

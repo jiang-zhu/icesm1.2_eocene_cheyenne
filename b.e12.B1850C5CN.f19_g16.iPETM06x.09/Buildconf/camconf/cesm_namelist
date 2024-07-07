@@ -1,0 +1,31 @@
+&cam_inparm
+ dtime = 1800
+ 
+ cam_branch_file='/glade/scratch/jiangzhu/b.e12.B1850C5CN.f19_g16.iPETM06x.09/run/b.e12.B1850C5CN.f19_g16.iPETM06x.07.cam.r.2001-01-01-00000.nc'
+ co2vmr=1708.2e-6
+ start_ymd = 20010101 
+ 
+bnd_topo    = '/glade/work/jiangzhu/data/inputdata/petm/bnd_topo_petm_1.9x2.5_remap_sgh30.170202.nc'
+f11vmr      = 0.0
+
+ext_frc_specifier   = 'SO2    -> /glade/work/jiangzhu/data/inputdata/aerosol/petm/ar5_mam3_so2_elev_1850_c090726_PETM_mod_170908.nc',
+                      'bc_a1  -> /glade/work/jiangzhu/data/inputdata/aerosol/petm/ar5_mam3_bc_elev_1850_c090726_PETM_mod_170908.nc',
+                      'num_a1 -> /glade/work/jiangzhu/data/inputdata/aerosol/petm/ar5_mam3_num_a1_elev_1850_c090726_PETM_mod_170908.nc',
+                      'num_a2 -> /glade/work/jiangzhu/data/inputdata/aerosol/petm/ar5_mam3_num_a2_elev_1850_c090726_PETM_mod_170908.nc',
+                      'pom_a1 -> /glade/work/jiangzhu/data/inputdata/aerosol/petm/ar5_mam3_oc_elev_1850_c090726_PETM_mod_170908.nc',
+                      'so4_a1 -> /glade/work/jiangzhu/data/inputdata/aerosol/petm/ar5_mam3_so4_a1_elev_1850_c090726_PETM_mod_170908.nc',
+                      'so4_a2 -> /glade/work/jiangzhu/data/inputdata/aerosol/petm/ar5_mam3_so4_a2_elev_1850_c090726_PETM_mod_170908.nc'
+srf_emis_specifier  = 'DMS    -> /glade/work/jiangzhu/data/inputdata/aerosol/petm/aerocom_mam3_dms_surf_2000_c090129_PETM_mod_170908.nc',
+                      'SO2    -> /glade/work/jiangzhu/data/inputdata/aerosol/petm/ar5_mam3_so2_surf_1850_c090726_PETM_mod_170908.nc',
+                      'SOAG   -> /glade/work/jiangzhu/data/inputdata/aerosol/petm/ar5_mam3_soag_1.5_surf_1850_c100217_PETM_mod_170908.nc',
+                      'bc_a1  -> /glade/work/jiangzhu/data/inputdata/aerosol/petm/ar5_mam3_bc_surf_1850_c090726_PETM_mod_170908.nc',
+                      'num_a1 -> /glade/work/jiangzhu/data/inputdata/aerosol/petm/ar5_mam3_num_a1_surf_1850_c090726_PETM_mod_170908.nc',
+                      'num_a2 -> /glade/work/jiangzhu/data/inputdata/aerosol/petm/ar5_mam3_num_a2_surf_1850_c090726_PETM_mod_170908.nc',
+                      'pom_a1 -> /glade/work/jiangzhu/data/inputdata/aerosol/petm/ar5_mam3_oc_surf_1850_c090726_PETM_mod_170908.nc',
+                      'so4_a1 -> /glade/work/jiangzhu/data/inputdata/aerosol/petm/ar5_mam3_so4_a1_surf_1850_c090726_PETM_mod_170908.nc',
+                      'so4_a2 -> /glade/work/jiangzhu/data/inputdata/aerosol/petm/ar5_mam3_so4_a2_surf_1850_c090726_PETM_mod_170908.nc'
+tropopause_climo_file   = '/glade/work/jiangzhu/data/inputdata/aerosol/petm/clim_p_trop_PETM_mod_170908.nc'
+soil_erod               = '/glade/work/jiangzhu/data/inputdata/aerosol/petm/dst_1.9x2.5_c090203_PETM_mod_170908.nc'
+tracer_cnst_datapath    = '/glade/work/jiangzhu/data/inputdata/aerosol/petm'
+tracer_cnst_file        = 'oxid_1.9x2.5_L26_1850clim_c091123_PETM_mod_170908.nc'
+/

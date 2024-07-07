@@ -1,0 +1,4 @@
+&cice_inparm 
+grid_file   = '/glade/work/jiangzhu/data/inputdata/petm/grid.1.pop.da'
+kmt_file    = '/glade/work/jiangzhu/data/inputdata/petm/kmt.PETM_new.be.fixed.170920.ieeei4'
+/ 

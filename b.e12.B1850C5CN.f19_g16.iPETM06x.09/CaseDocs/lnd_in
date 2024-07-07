@@ -1,0 +1,29 @@
+&clm_inparm
+ albice = 0.80,0.55
+ co2_type = 'diagnostic'
+ create_crop_landunit = .false.
+ dtime = 1800
+ fatmlndfrc = '/glade/work/jiangzhu/data/inputdata/petm/domain.lnd.fv19_25_gx1PETM_fixed.170921.nc'
+ finidat = '/glade/p/cesmdata/cseg/inputdata/ccsm4_init/b40.1850.track1.2deg.003/year_401/b40.1850.track1.2deg.003.clm2.r.0401-01-01-00000.nc'
+ fpftcon = '/glade/p/cesmdata/cseg/inputdata/lnd/clm2/pftdata/pft-physiology.c110425.nc'
+ fsnowaging = '/glade/p/cesmdata/cseg/inputdata/lnd/clm2/snicardata/snicar_drdt_bst_fit_60_c070416.nc'
+ fsnowoptics = '/glade/p/cesmdata/cseg/inputdata/lnd/clm2/snicardata/snicar_optics_5bnd_c090915.nc'
+ fsurdat = '/glade/work/jiangzhu/data/inputdata/petm/surfdata_1.9x2.5_PETM_new_c171025.nc'
+ maxpatch_glcmec = 0
+ nrevsn = 'b.e12.B1850C5CN.f19_g16.iPETM06x.07.clm2.r.2001-01-01-00000.nc'
+ nsegspc = 20
+ urban_hac = 'OFF'
+ urban_traffic = .false.
+/
+&ndepdyn_nml
+ ndepmapalgo = 'bilinear'
+ stream_fldfilename_ndep = '/glade/p/cesmdata/cseg/inputdata/lnd/clm2/ndepdata/fndep_clm_hist_simyr1849-2006_1.9x2.5_c100428.nc'
+ stream_year_first_ndep = 1850
+ stream_year_last_ndep = 1850
+/
+#!--------------------------------------------------------------------------------------------------------------------------
+#! lnd_in:: Comment:
+#! This namelist was created using the following command-line:
+#!     /glade/u/home/jiangzhu/cesm/iCESM1_2_0_1_geotrace_n02c/models/lnd/clm/bld/CLM build-namelist -infile /glade/u/home/jiangzhu/cesm/cases/b.e12.B1850C5CN.f19_g16.iPETM06x.09/Buildconf/clmconf/cesm_namelist -csmdata /glade/p/cesmdata/cseg/inputdata -inputdata /glade/u/home/jiangzhu/cesm/cases/b.e12.B1850C5CN.f19_g16.iPETM06x.09/Buildconf/clm.input_data_list -namelist &clm_inparm  / -use_case 1850_control -res 1.9x2.5 -clm_start_type branch -clm_startfile b.e12.B1850C5CN.f19_g16.iPETM06x.07.clm2.r.2001-01-01-00000.nc -l_ncpl 48 -lnd_frac /glade/work/jiangzhu/data/inputdata/petm/domain.lnd.fv19_25_gx1PETM_fixed.170921.nc -glc_nec 0 -co2_ppmv 1708.2 -co2_type diagnostic -config /glade/u/home/jiangzhu/cesm/cases/b.e12.B1850C5CN.f19_g16.iPETM06x.09/Buildconf/clmconf/config_cache.xml
+#! For help on options use: /glade/u/home/jiangzhu/cesm/iCESM1_2_0_1_geotrace_n02c/models/lnd/clm/bld/CLM build-namelist -help
+#!--------------------------------------------------------------------------------------------------------------------------

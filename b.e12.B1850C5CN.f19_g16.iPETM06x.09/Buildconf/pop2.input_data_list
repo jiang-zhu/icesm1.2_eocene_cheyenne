@@ -1,0 +1,10 @@
+init_wiso_init_file = same_as_TS
+shf_filename = /glade/p/cesmdata/cseg/inputdata/ocn/pop/gx1v6/forcing/shf_mm_all_85-88_20010308.ieeer8
+tidal_energy_file = /glade/p/cesmdata/cseg/inputdata/ocn/pop/gx1v6/forcing/tidal_energy_gx1v6_20090205.ieeer8
+niw_energy_file = /glade/p/cesmdata/cseg/inputdata/ocn/pop/gx1v6/forcing/niw_gx1v6_20100915.ieeer8
+region_mask_file = /glade/work/jiangzhu/data/inputdata/petm/region.PETM_new.be.fixed.200403.ieeei4
+horiz_grid_file = /glade/work/jiangzhu/data/inputdata/petm/grid.1.pop.da
+topography_file = /glade/work/jiangzhu/data/inputdata/petm/kmt.PETM_new.be.fixed.170920.ieeei4
+sfwf_filename = /glade/p/cesmdata/cseg/inputdata/ocn/pop/gx1v6/forcing/sfwf_mm_PHC2_salx_flxio_20090205.ieeer8
+chl_filename = /glade/p/cesmdata/cseg/inputdata/ocn/pop/gx1v6/forcing/chl_filled_20061230.ieeer8
+init_ts_file = /glade/p/cesmdata/cseg/inputdata/ocn/pop/gx1v6/ic/ts_PHC2_jan_ic_gx1v6_20090205.ieeer8

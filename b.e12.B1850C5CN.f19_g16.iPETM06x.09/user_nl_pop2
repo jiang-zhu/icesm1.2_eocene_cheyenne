@@ -1,0 +1,40 @@
+tavg_file_freq_opt          = 'nmonth' 'never' 'once'
+
+! namelists for wiso
+! init_wiso_init_file         = '/glade/work/jiangzhu/data/inputdata/petm/ic/b30.petm_dannM_tran.pop.TS.WISO.1663.gx1v6PETM.170921.nc'
+! init_wiso_init_file_fmt     = 'nc'
+! init_wiso_option            = 'file'
+wiso_use_nml_surf_vals      = .false.
+wiso_comp_surf_avg_freq_opt = 'nmonth'
+wiso_comp_surf_avg_freq     = 1
+
+! namelists for PETM
+! init_ts_file            = '/glade/work/jiangzhu/data/inputdata/petm/ic/b30.petm_dannM_tran.pop.TS.WISO.1663.gx1v6PETM.170921.nc'
+! init_ts_file_fmt        = 'nc'
+
+overflows_on            = .false.
+overflows_interactive   = .false.
+horiz_grid_file         = '/glade/work/jiangzhu/data/inputdata/petm/grid.1.pop.da'
+topography_file         = '/glade/work/jiangzhu/data/inputdata/petm/kmt.PETM_new.be.fixed.170920.ieeei4'
+region_mask_file        = '/glade/work/jiangzhu/data/inputdata/petm/region.PETM_new.be.fixed.200403.ieeei4'
+! region_mask_file      = '/glade/work/jiangzhu/data/inputdata/petm/region.PETM_new.be.ms.fixed.170920.ieeei4'
+region_info_file        = '/glade/work/jiangzhu/data/inputdata/petm/petm_gx1v6_region_ids.PETM_new'
+! region_info_file      = '/glade/work/jiangzhu/data/inputdata/petm/petm_gx1v6_region_ids.PETM_new.ms_170929'
+diag_transport_file     = '/glade/work/jiangzhu/data/inputdata/petm/petm_gx1v6_transport_contents.PETM_new'
+lat_aux_begin           = -90.0
+lat_aux_end             = 90.0
+lat_aux_grid_type       = 'user-specified'
+n_lat_aux_grid          = 90
+moc_requested           = .true.
+n_heat_trans_requested  = .true.
+n_salt_trans_requested  = .true.
+n_transport_reg         = 1
+transport_reg2_names    = 'Eq Bay','Mid-ocean Ridge'
+dt_count                = 23
+time_mix_freq           = 17
+lhoriz_varying_bckgrnd  = .false.
+ldiag_velocity          = .false.
+ltidal_mixing           = .false.
+bckgrnd_vdc1            = 0.524
+bckgrnd_vdc2            = 0.313
+sw_absorption_type      = 'jerlov'

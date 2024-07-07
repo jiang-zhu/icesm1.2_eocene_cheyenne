@@ -1,0 +1,52 @@
+create_newcase -case /glade/u/home/jiangzhu/cesm/cases/b.e12.B1850C5CN.f19_g16.iPETM06x.09 -res f19_g16 -mach cheyenne -compset B1850C5CN
+
+
+Component set: longname (shortname) (alias) 
+  1850_CAM5_CLM40%CN_CICE_POP2_RTM_SGLC_SWAV (B_1850_CAM5_CN) (B1850C5CN) 
+Component set Description: 
+  CAM: CLM: RTM: CICE: POP2: SGLC: SWAV: pre-industrial: cam5 physics: clm4.0 physics: clm4.0 cn: prognostic cice: POP2 default: 
+Grid: 
+  a%1.9x2.5_l%1.9x2.5_oi%gx1v6_r%r05_m%gx1v6_g%null_w%null (1.9x2.5_gx1v6) 
+  ATM_GRID = 1.9x2.5  NX_ATM=144 NY_ATM=96 
+  LND_GRID = 1.9x2.5  NX_LND=144 NX_LND=96 
+  ICE_GRID = gx1v6  NX_ICE=320 NX_ICE=384 
+  OCN_GRID = gx1v6  NX_OCN=320 NX_OCN=384 
+  ROF_GRID = r05  NX_ROF=720 NX_ROF=360 
+  GLC_GRID = 1.9x2.5  NX_GLC=144 NX_GLC=96 
+  WAV_GRID = null  NX_WAV=0 NX_WAV=0 
+Grid Description: 
+  null is no grid: 1.9x2.5 is FV 2-deg grid: gx1v6 is Greenland pole v6 1-deg grid: r05 is 1/2 degree river routing grid: 
+Non-Default Options: 
+  ATM_NCPL: 48 
+  BUDGETS: TRUE 
+  CAM_CONFIG_OPTS: -phys cam5 
+  CAM_DYCORE: fv 
+  CAM_NML_USE_CASE: 1850_cam5 
+  CCSM_BGC: CO2A 
+  CCSM_CCOST: 1 
+  CCSM_CO2_PPMV: 284.7 
+  CICE_MODE: prognostic 
+  CICE_NAMELIST_OPTS: cam5=.true. 
+  CLM_CO2_TYPE: diagnostic 
+  CLM_CONFIG_OPTS: -phys clm4_0 -bgc cn 
+  CLM_NML_USE_CASE: 1850_control 
+  COMP_ATM: cam 
+  COMP_GLC: sglc 
+  COMP_ICE: cice 
+  COMP_LND: clm 
+  COMP_OCN: pop2 
+  COMP_ROF: rtm 
+  COMP_WAV: swav 
+  CPL_ALBAV: false 
+  CPL_EPBAL: off 
+  GET_REFCASE: TRUE 
+  OCN_COUPLING: full 
+  OCN_NCPL: 1 
+  OCN_TIGHT_COUPLING: FALSE 
+  OCN_TRACER_MODULES:  iage 
+  ROF_NCPL: 8 
+  RTM_BLDNML_OPTS: -simyr 1850 
+  RUN_REFCASE: b40_1850_2d_r07c5cn_160jp 
+  RUN_REFDATE: 0070-01-01 
+  RUN_TYPE: hybrid 
+  SCIENCE_SUPPORT: NO 

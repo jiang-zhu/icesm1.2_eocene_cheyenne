@@ -1,0 +1,11 @@
+&modelio
+ diri = '/glade/scratch/jiangzhu/b.e12.B1850C5CN.f19_g16.iPETM06x.09/bld/atm'
+ diro = '/glade/scratch/jiangzhu/b.e12.B1850C5CN.f19_g16.iPETM06x.09/run'
+ logfile = 'atm.log.231003-092644'
+/
+&pio_inparm
+ pio_numiotasks = -99
+ pio_root = -99
+ pio_stride = -99
+ pio_typename = 'nothing'
+/

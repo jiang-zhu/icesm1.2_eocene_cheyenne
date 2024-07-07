@@ -1,0 +1,6 @@
+&rtm_inparm
+ 
+ nrevsn_rtm='b.e12.B1850C5CN.f19_g16.iPETM06x.07.rtm.r.2001-01-01-00000.nc'
+ 
+frivinp_rtm = '/glade/work/jiangzhu/data/inputdata/petm/rdirc.1x1.PETM_new.nc'
+/

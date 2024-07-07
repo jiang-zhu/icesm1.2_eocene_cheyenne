@@ -1,0 +1,15 @@
+ocn2atm_fmapname = /glade/work/jiangzhu/data/inputdata/petm/map_gx1PETM_fixed_TO_fv19_25_aave.170921.nc
+atm2ocn_smapname = /glade/work/jiangzhu/data/inputdata/petm/map_fv19_25_TO_gx1PETM_fixed_blin.170921.nc
+atm2ice_smapname = /glade/work/jiangzhu/data/inputdata/petm/map_fv19_25_TO_gx1PETM_fixed_blin.170921.nc
+rof2ocn_rmapname = /glade/work/jiangzhu/data/inputdata/petm/map_r1x1PETMfixed_to_gx1v6PETMfixed_nnsm_e1000r300_170921.nc
+atm2ocn_vmapname = /glade/work/jiangzhu/data/inputdata/petm/map_fv19_25_TO_gx1PETM_fixed_patc.170921.nc
+ice2atm_fmapname = /glade/work/jiangzhu/data/inputdata/petm/map_gx1PETM_fixed_TO_fv19_25_aave.170921.nc
+ocn2atm_smapname = /glade/work/jiangzhu/data/inputdata/petm/map_gx1PETM_fixed_TO_fv19_25_aave.170921.nc
+rof2ocn_fmapname = /glade/work/jiangzhu/data/inputdata/petm/map_r1_nomask_TO_gx1v6PETM_fixed_aave.170921.nc
+ice2atm_smapname = /glade/work/jiangzhu/data/inputdata/petm/map_gx1PETM_fixed_TO_fv19_25_aave.170921.nc
+atm2ice_fmapname = /glade/work/jiangzhu/data/inputdata/petm/map_fv19_25_TO_gx1PETM_fixed_aave.170921.nc
+lnd2rof_fmapname = /glade/work/jiangzhu/data/inputdata/petm/map_r19_nomask_TO_r1x1_aave.170404.nc
+rof2lnd_smapname = /glade/work/jiangzhu/data/inputdata/petm/map_r1x1_TO_r19_aave.170404.nc
+atm2ice_vmapname = /glade/work/jiangzhu/data/inputdata/petm/map_fv19_25_TO_gx1PETM_fixed_patc.170921.nc
+atm2ocn_fmapname = /glade/work/jiangzhu/data/inputdata/petm/map_fv19_25_TO_gx1PETM_fixed_aave.170921.nc
+rof2lnd_fmapname = /glade/work/jiangzhu/data/inputdata/petm/map_r1x1_TO_r19_aave.170404.nc
